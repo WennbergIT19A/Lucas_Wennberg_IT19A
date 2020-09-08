@@ -7,6 +7,12 @@ console.log(`Hej ${name}`)
 //tilldela variabler med värden 3, 4, 5
 //Räkna ut medelvärdet av dem
 
-let tal1 = "3"
-let tal2 = "4"
-let tal3 = "5"
+let tal1 = 3
+let tal2 = 4
+let tal3 = 5
+
+//räkna ut medelvärdet
+console.log(`(${tal1}+${tal2}+${tal3})/3 = ${medelvarde}`)
+
+
+
