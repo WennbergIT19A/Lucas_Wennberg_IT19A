@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <form action="mailto:l.wennberg02@gmail.com" method="get" enctype="text/plain">
+        <h1>FRÅGOR ÄNNA</h1>
+        <p>Hejhej <3</p>
+
+        <div>
+            <label for="email">Emailadress</label>
+            <input type="email" placeholder="Emailadress" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="text">Text</label>
+            <input type="text" placeholder="text" name="text" id="text" required>
+        </div>
+        <div>
+            <label for="password">Lösenord</label>
+            <input type="password" placeholder="Lösenord" name="psw" id="psw" required>
+        </div>
+        <div>
+            <label for="password-repeat">Upprepa lösenord</label>
+            <input type="password" placeholder="Upprepa lösenord" name="psw-re" id="psw-re" required>
+        </div>
+        <p>Vilket lag håller du på?</p>
+        <div>
+            <input type="radio" name="team" id="radio" value="frölunda">
+            <label for="radio">Frölunda</label><br>
+        </div>
+        <div>
+            <input type="radio" name="team" id="radio" value="djurgården">
+            <label for="radio">Djurgården</label><br>
+        </div>
+        <div>
+            <input type="radio" name="team" id="radio" value="Färjestad">
+            <label for="radio">Färjestad</label><br>
+        </div>
+        <div>
+            <label for="button">Klicka mig!</label>
+            <input type="button" name="button" id="button">
+        </div>
+        <div>
+            <label for="date">Datum</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <label for="gender">Kön</label>
+            <select id="gender" name="gender">
+                <option value="Kvinna"></option>
+                <option value="Man"></option>
+                <option value="Vet ej"></option>
+                <option value="Helikopter"></option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" name="submit" id="submit">
+        </div>
+        <div>
+            <input type="reset" name="reset" id="reset">
+        </div>
+        
+        
+    </form>
+</body>
+</html>
