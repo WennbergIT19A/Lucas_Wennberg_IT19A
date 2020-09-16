@@ -9,62 +9,47 @@
 <body>
     <form action="mailto:l.wennberg02@gmail.com" method="get" enctype="text/plain">
         <h1>FRÅGOR ÄNNA</h1>
-        <p>Hejhej <3</p>
-
+        <p>Hejhej</p>
+    <hr>
+        <table>
+            <tr>
+                <td><label for="email">Emailadress</label>
+                <td><input type="email" placeholder="Emailadress" name="email" id="email" required>
+            </tr>
+            <tr>
+                <td><label for="password">Lösenord</label>
+                <td><input type="password" placeholder="Lösenord" name="psw" id="psw" required>
+            </tr>
+            <tr>
+                <td><label for="password-repeat">Upprepa lösenord</label>
+                <td><input type="password" placeholder="Upprepa lösenord" name="psw-re" id="psw-re" required>
+            </tr>
+            <tr>
+                <td><label for="textarea">Mina favoritintressen</label>
+<td><textarea id="textarea" name="textarea" rows="4" cols="30" placeholder="Skriv här...">
+</textarea>
+            </tr>
+            <tr>
+                <td><label for="checkbox">Vill du ta del av erbjudanden?</label>
+                <td><input type="checkbox" placeholder="checkbox" name="checbox" id="checkbox">
+            </tr>
+            <tr>
+                <td><label for="gender">Kön</label>
+                <td><select name="gender" id="gender">
+                    <option value="Man">Man</option>
+                    <option value="Kvinna">Kvinna</option>
+                    <option value="Osäker">Osäker</option>
+                    <option value="Varje">Lite av varje</option>
+                </select>
+            </tr>
+        </table>
+    <hr>
         <div>
-            <label for="email">Emailadress</label>
-            <input type="email" placeholder="Emailadress" name="email" id="email" required>
-        </div>
-        <div>
-            <label for="text">Text</label>
-            <input type="text" placeholder="text" name="text" id="text" required>
-        </div>
-        <div>
-            <label for="password">Lösenord</label>
-            <input type="password" placeholder="Lösenord" name="psw" id="psw" required>
-        </div>
-        <div>
-            <label for="password-repeat">Upprepa lösenord</label>
-            <input type="password" placeholder="Upprepa lösenord" name="psw-re" id="psw-re" required>
-        </div>
-        <p>Vilket lag håller du på?</p>
-        <div>
-            <input type="radio" name="team" id="radio" value="frölunda">
-            <label for="radio">Frölunda</label><br>
-        </div>
-        <div>
-            <input type="radio" name="team" id="radio" value="djurgården">
-            <label for="radio">Djurgården</label><br>
-        </div>
-        <div>
-            <input type="radio" name="team" id="radio" value="Färjestad">
-            <label for="radio">Färjestad</label><br>
-        </div>
-        <div>
-            <label for="button">Klicka mig!</label>
-            <input type="button" name="button" id="button">
-        </div>
-        <div>
-            <label for="date">Datum</label>
-            <input type="date" name="date" id="date">
-        </div>
-        <div>
-            <label for="gender">Kön</label>
-            <select id="gender" name="gender">
-                <option value="Kvinna"></option>
-                <option value="Man"></option>
-                <option value="Vet ej"></option>
-                <option value="Helikopter"></option>
-            </select>
-        </div>
-        <div>
+            <label for="submit"></label>
             <input type="submit" name="submit" id="submit">
-        </div>
-        <div>
+            <label for="reset"></label>
             <input type="reset" name="reset" id="reset">
-        </div>
-        
-        
+        </div> 
     </form>
 </body>
 </html>
