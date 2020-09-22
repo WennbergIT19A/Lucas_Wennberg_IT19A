@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="form.js" defer></script>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <form action="mailto:l.wennberg02@gmail.com" method="get" enctype="text/plain">
-        <h1>FRÅGOR ÄNNA</h1>
-        <p>Hejhej</p>
-    <hr>
+        <h1 style="text-align:center">HEADER</h1>
+    <article>
+        <h2>Galet formulär</h2>
+        <p>Fyll i dina uppgifter i formuläret</p>
         <table>
+        <hr>
             <tr>
                 <td><label for="email">Emailadress</label>
                 <td><input type="email" placeholder="Emailadress" name="email" id="email" required>
@@ -43,13 +46,15 @@
                 </select>
             </tr>
         </table>
-    <hr>
+        <hr>
         <div>
             <label for="submit"></label>
             <input type="submit" name="submit" id="submit">
             <label for="reset"></label>
             <input type="reset" name="reset" id="reset">
         </div> 
+    </article>
+        <h3 style="text-align:center">FOOTER</h3>
     </form>
 </body>
 </html>

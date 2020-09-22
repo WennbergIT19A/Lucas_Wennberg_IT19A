@@ -1,0 +1,28 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    color:black;
+    font-size: 25px;
+    background-color:lightgray;
+    padding: 25px;
+    border: 1px solid black;
+    margin: 1% 23% 0% 23%;
+}
+
+h3 {
+    color:black;
+    font-size: 25px;
+    background-color:lightgray;
+    padding: 25px;
+    border: 1px solid black;
+    margin: 1% 23% 0% 23%;
+}
+
+article {
+    margin: 1% 25% 0% 25%;
+    background-color:lightgray;
+    padding: 15px;
+    border: 1px solid black;
+}
