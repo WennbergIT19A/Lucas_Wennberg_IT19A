@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: teal;
+}
+
+nav {
+    font-size: 100px;
+    color: white;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+li {
+    margin: 20% 25% 0 25%;
+    background-color: tomato;
+    text-align: center;
+    padding: 20px;
+}
+
+li:hover {
+    background-color: turquoise;
+}

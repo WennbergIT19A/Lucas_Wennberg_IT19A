@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: teal;
+}
+
+h1 {
+    text-align: center;
+    margin: 20% 20% 5% 20%;
+}
+
+li {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 40%;
+    background-color: tomato;
+    text-align: center;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: violet;
+}
