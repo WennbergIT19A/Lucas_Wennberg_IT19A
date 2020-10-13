@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header CSS */
+li, a {
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-color: #2d3436;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signatur img {
+    padding: 5px 0 0 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 65px;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #ff7675;
+}
+/* Slut på header CSS */
