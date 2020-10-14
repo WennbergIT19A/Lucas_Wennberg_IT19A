@@ -5,9 +5,9 @@
 }
 
 body {
+    position: relative;
     background-image: url("timbernerslee.png");
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* Header CSS */
@@ -56,7 +56,7 @@ header {
 
 h2 {
     font-family: 'Pacifico', cursive;
-    font-size: 42px;
+    font-size: 38px;
     letter-spacing: 2px;
     font-weight: 200;
     text-shadow: 3px 6px 5px black;
@@ -82,4 +82,14 @@ p {
 
 .readmore:hover {
     color:  #ff7675;
+}
+
+footer {
+    padding: 85px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2d3436;
+    color: white;
+    text-align: center;
 }
