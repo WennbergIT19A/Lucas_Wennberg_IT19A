@@ -54,28 +54,25 @@ body {
     background-color: #ff7675;
 }
 
-.flexbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#container {
+    text-align: center;
+    margin-top: 35px;
 }
-
-.title {
+  
+.text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
     color: white;
-    display: flex;
-    padding-top: 80px;
-    text-align: center;
+    display: inline-block;
+    margin: 0 130px 10px 130px;
 }
-
-.image {
-    background-color: white;
-    margin: 100px 50px 20px 20px;
-    border: 2px solid #2F323A;
-    float: left;
-    width: 25%;
+  
+.img {
+    margin: 0 20px 0 20px;
+    width: 450px;
+    height: 250px;
     padding: 5px;
-    text-align: center;
+    background-color: white;
+    border: 2px solid black;
 }
