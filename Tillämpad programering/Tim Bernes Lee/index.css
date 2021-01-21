@@ -6,8 +6,8 @@
 
 body {
     position: relative;
-    background-image: url("timbernerslee.png");
-    background-repeat: no-repeat;
+    background-color: #ff7675;
+    background-size: cover;
 }
 
 /* Header CSS */
@@ -22,7 +22,7 @@ li, a {
 }
 
 header {
-    background-color: #2d3436;
+    background-color: #2F323A;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@ header {
 /* Slut på header CSS */
 
 .content { 
-    padding-top: 185px;
+    padding-top: 165px;
     font-family: 'Cookie', cursive;
     text-align: center;
     color: white;
@@ -62,7 +62,7 @@ h2 {
     text-shadow: 3px 6px 5px black;
 }
 
-p {
+.content p {
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
@@ -84,12 +84,33 @@ p {
     color:  #ff7675;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+.flex-container > div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    width: 400px;
+    margin: 100px 0 30px 135px;
+    border: 2px solid #2F323A;
+    padding: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+}
+
 footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
     padding: 85px 0;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #2d3436;
+    background-color: #2F323A;
     color: white;
     text-align: center;
 }

@@ -41,11 +41,7 @@ header {
 }
 /* Slut på header CSS */
 
-body {
-    background-color: #ff7675;
-}
-
-h2 {
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 45px;
@@ -54,33 +50,32 @@ h2 {
     margin-top: 20px;
 }
 
+body {
+    background-color: #ff7675;
+}
+
 .flexbox {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bild {
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.image {
     background-color: white;
-    margin: 100px 20px 20px 20px;
+    margin: 100px 50px 20px 20px;
     border: 2px solid #2F323A;
     float: left;
-    width: 15%;
+    width: 25%;
     padding: 5px;
-}
-
-/*
-.flexbox {
-    flex-wrap: wrap;
-    display: flex;
     text-align: center;
-    margin: auto;
-    max-width: 50%;
 }
-
-.flexbox > div {
-    background-color: white;
-    margin-top: 100px;
-    border: 2px solid #2F323A;
-}
-*/
